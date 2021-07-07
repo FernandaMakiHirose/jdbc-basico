@@ -2,8 +2,12 @@
 1- instalar MySQL e MySQL Workbench https://dev.mysql.com/downloads/workbench/ <br>
 2- clique no ‘local instance’ para criar banco de dados <br>
 3- Crie um banco de dados no MySQL com as informações correspondentes ao código <br>
-4- No build.gradle foi adicionado o código da linha 15 do projeto <br>
+4- No build.gradle foi adicionado o código da linha 15 e 16 do projeto <br>
 5- O conteúdo está dentro da pasta 'java' <br>
+
+## JDBC e Drivers de Conexão
+- JDBC (java database connectivity) é uma API com diversas classes e interfaces escritas na linguagem Java que estão presentes nos pacotes java.sql e javax.sql. elas permitem que programas java realizem conexões em banco de dados para realizar consultas. uma dessas classes principais é o driver JDBC que intermedia essa interação.
+- sem a API JDBC seria necessário conhecer o protocolo proprietário de cada banco de dados para se conectar e realizar consultas. já com a API JDBC, é utilizada somente uma interface java para qualquer banco de dados, deixando o driver implementar as especificações de cada banco de dados, enquanto o desenvolvedor se preocupa apenas em selecionar um driver e criar as queries (neste caso, consultas sql)
 
 ## Pré requisitos 
 - Java Development Kit (JDK) – 1.8 ou superior
