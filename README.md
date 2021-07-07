@@ -1,6 +1,6 @@
 ## Trabalhando com JDBC
-1- instalar MySQL e MySQL Workbench https://dev.mysql.com/downloads/workbench/ 
-2- clique no ‘local instance’ para criar banco de dados
+1- instalar MySQL e MySQL Workbench https://dev.mysql.com/downloads/workbench/ <br>
+2- clique no ‘local instance’ para criar banco de dados <br>
 3- Crie um banco de dados no MySQL com as informações correspondentes ao código <br>
 4- No build.gradle foi adicionado o código da linha 15 do projeto <br>
 5- O conteúdo está dentro da pasta 'java' <br>
