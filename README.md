@@ -1,4 +1,4 @@
-## Trabalhando com JDBC
+## Trabalhando com banco de dados usando JDBC
 1- instalar MySQL e MySQL Workbench https://dev.mysql.com/downloads/workbench/ <br>
 2- clique no ‘local instance’ para criar banco de dados <br>
 3- Crie um banco de dados no MySQL com as informações correspondentes ao código <br>
