@@ -1,6 +1,6 @@
 ## Trabalhando com JDBC
 1- Crie um banco de dados no MySQL com as informações correspondentes ao código <br>
-2- Adicione o código da linha 15 no build.gradle do projeto <br>
+2- No build.gradle foi adicionado o código da linha 15 do projeto <br>
 3- O conteúdo está dentro da pasta 'java' <br>
 
 ## Pré requisitos 
