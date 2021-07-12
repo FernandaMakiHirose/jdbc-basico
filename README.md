@@ -13,7 +13,7 @@
 - Java Development Kit (JDK) – 1.8 ou superior.
 - IntelliJ IDEA (É recomendável seguir com essa IDE, porém pode ser selecionada outra). <br>
 - Gradle 5.3.1 (É utilizado para baixar o Driver JDBC. Se quiser, pode ser instalado manualmente ou com o Maven). <br>
-- <a href="https://github.com/danielkv7/jdbc-basico/blob/master/src/main/java/part1/DatabaseInstructions">MySQL (Passos para instalação estão no arquivo "DatabaseInstructions).</a <br>
+- <a href="https://github.com/danielkv7/jdbc-basico/blob/master/src/main/java/part1/DatabaseInstructions">MySQL (Passos para instalação estão no arquivo "DatabaseInstructions.</a>
 
 ## Executar
 Basta rodar a função main em um dos seguintes arquivos:
