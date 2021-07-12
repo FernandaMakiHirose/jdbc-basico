@@ -18,4 +18,4 @@
 ## Executar
 Basta rodar a função main em um dos seguintes arquivos:
 - <a href="https://github.com/danielkv7/jdbc-basico/blob/master/src/main/java/part2/ConnectionJDBC.java">ConnectionJDBC.java.</a> <br>
-- <a href="https://github.com/danielkv7/jdbc-basico/blob/master/src/main/java/part3/QueriesExecution.java">QueriesExecution.java. <br>
+- <a href="https://github.com/danielkv7/jdbc-basico/blob/master/src/main/java/part3/QueriesExecution.java">QueriesExecution.java.</a> <br>
