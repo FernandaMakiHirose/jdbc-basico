@@ -24,6 +24,7 @@ public class ConnectionJDBC {
                 .append(dataBaseName)
                 .append(additionalConfig);
 
+        // passa o nome do banco de dados: digital_innovation_one
         String connectionUrl = sb.toString(); //sb.toString() == "jdbc:mysql://localhost/digital_innovation_one"
 
         //Carregar a classe específica de implementação do driver na memória da JVM. (A partir da versão JDBC 4 não é mais necessário!!!)
