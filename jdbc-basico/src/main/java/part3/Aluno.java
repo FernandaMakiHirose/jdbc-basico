@@ -1,5 +1,7 @@
 package part3;
 
+// classe com as informações do banco de dados do Aluno
+
 public class Aluno {
 
     private int id;
@@ -7,6 +9,8 @@ public class Aluno {
     private int idade;
     private String estado;
 
+    // construtor
+    
     public Aluno(int id, String nome, int idade, String estado) {
         this.id = id;
         this.nome = nome;
@@ -21,6 +25,8 @@ public class Aluno {
     }
 
     public Aluno() { }
+    
+    // getters e setters
 
     public int getId() {
         return id;
