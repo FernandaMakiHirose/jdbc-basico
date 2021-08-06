@@ -2,8 +2,8 @@
 1- <a href="https://dev.mysql.com/downloads/workbench/">instalar MySQL e MySQL Workbench.</a> <br>
 2- clique no ‘local instance’ para criar banco de dados. <br>
 3- Crie um banco de dados e uma tabela no MySQL com as informações correspondentes ao código. <br>
-4- Baixar driver do MySQL (No build.gradle foi adicionado o código da linha 15 e 16 do projeto).
-5- Criar uma url (string de conexão) com os seguintes parâmetros: driver, endereço do BD e nome do BD (No arquivo ConnectionJDBC.java).
+4- Baixar driver do MySQL (No build.gradle foi adicionado o código da linha 15 e 16 do projeto). <br>
+5- Criar uma url (string de conexão) com os seguintes parâmetros: driver, endereço do BD e nome do BD (No arquivo ConnectionJDBC.java). <br>
 6- Criar uma connection através do DriverManager utilizando o método getConnection, passando os parâmetros: string de conexão, usuário e senha.
 
 ## JDBC e Drivers de Conexão
