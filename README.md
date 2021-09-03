@@ -1,4 +1,4 @@
- ## Trabalhando com banco de dados usando JDBC
+ # Trabalhando com banco de dados usando JDBC
 1- <a href="https://dev.mysql.com/downloads/workbench/">instalar MySQL e MySQL Workbench.</a> <br>
 2- clique no ‘local instance’ para criar banco de dados. <br>
 3- Crie um banco de dados e uma tabela no MySQL com as informações correspondentes ao código. <br>
@@ -6,15 +6,18 @@
 5- Criar uma url (string de conexão) com os seguintes parâmetros: driver, endereço do BD e nome do BD (No arquivo ConnectionJDBC.java). <br>
 6- Criar uma connection através do DriverManager utilizando o método getConnection, passando os parâmetros: string de conexão, usuário e senha.
 
-## JDBC e Drivers de Conexão
-- JDBC (java database connectivity) é uma API com diversas classes e interfaces escritas na linguagem Java que estão presentes nos pacotes java.sql e javax.sql. elas permitem que programas java realizem conexões em banco de dados para realizar consultas. uma dessas classes principais é o driver JDBC que intermedia essa interação.
-- sem a API JDBC seria necessário conhecer o protocolo proprietário de cada banco de dados para se conectar e realizar consultas. já com a API JDBC, é utilizada somente uma interface java para qualquer banco de dados, deixando o driver implementar as especificações de cada banco de dados, enquanto o desenvolvedor se preocupa apenas em selecionar um driver e criar as queries (neste caso, consultas sql).
-
 ## Pré-requisitos 
 - Java Development Kit (JDK) – 1.8 ou superior.
 - IntelliJ IDEA (É recomendável seguir com essa IDE, porém pode ser selecionada outra). <br>
 - Gradle 5.3.1 (É utilizado para baixar o Driver JDBC. Se quiser, pode ser instalado manualmente ou com o Maven). <br>
 - <a href="https://github.com/danielkv7/jdbc-basico/blob/master/src/main/java/part1/DatabaseInstructions">MySQL (Passos para instalação estão no arquivo "DatabaseInstructions.</a>
+
+## Licença
+Distribuido sob a licença MIT License. Veja `LICENSE` para mais informações.
+
+## JDBC e Drivers de Conexão
+- JDBC (java database connectivity) é uma API com diversas classes e interfaces escritas na linguagem Java que estão presentes nos pacotes java.sql e javax.sql. elas permitem que programas java realizem conexões em banco de dados para realizar consultas. uma dessas classes principais é o driver JDBC que intermedia essa interação.
+- sem a API JDBC seria necessário conhecer o protocolo proprietário de cada banco de dados para se conectar e realizar consultas. já com a API JDBC, é utilizada somente uma interface java para qualquer banco de dados, deixando o driver implementar as especificações de cada banco de dados, enquanto o desenvolvedor se preocupa apenas em selecionar um driver e criar as queries (neste caso, consultas sql).
 
 ## Executar
 Basta rodar a função main em um dos seguintes arquivos:
